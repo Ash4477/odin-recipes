@@ -8,18 +8,21 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
+.intro-img{
+    margin-left: 30px;
+    margin-bottom: -60px;
+}
+
 #chef-img{
     margin-left: 30px;
     margin-bottom: -20px;
-    width: 100px;
-    height: 100px;
 }
 
-.title{
+.intro-title{
     display: inline-block;
     text-align: center;
     font-size: 5rem;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 a{
