@@ -1,4 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3D3B40;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#chef-img{
+    margin-left: 30px;
+    margin-bottom: -20px;
+    width: 100px;
+    height: 100px;
+}
+
 .title{
+    display: inline-block;
     text-align: center;
-    margin: 0 auto;
+    font-size: 5rem;
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu{
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 50px;
+    padding: 16px 8px;
+    background-color: white;
+}
+
+.menu-item{
+    font-size: 2rem;
+    margin-right: 10px;
+    border: 2px solid black;
+    padding: 8px;
+    list-style-type: none;
+    background-color: rgb(65, 62, 62);
+
+}
+
+.menu-item:hover{
+    background-color: rgb(97, 92, 92);
 }
